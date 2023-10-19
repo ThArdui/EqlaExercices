@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr-BE">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 10-5</title>
+</head>
+
+<body>
+<header>
+    <nav role="navigation" aria-label="Menu principal">
+        <ul>
+            <li><a href="#" class="active" aria-current="page">Lien 1</a></li>
+            <li><a href="#">Lien 2</a></li>
+            <li><a href="#">Lien 3</a></li>
+        </ul>
+    </nav>
+</header>
+<main id="maincontent">
+    <h1>Partie 5- simple formulaire </h1>
+    <section>
+        <form method="post" action="http://zamboyle.synology.me:2727/forms/demos/showvars.php">
+            <label for="nom">Nom: </label>
+            <input type="text" id="nom" name="nom" required>
+            <label for="prenom">Prénom:</label>
+            <input type="text" id="prenom" name="prenom" required>
+            <label for="email">E-mail : </label>
+            <input type="email" id="email" name="email" required>
+            <label for="age"> Âge : </label>
+            <input type="number" id="age" name="age"><br>
+            <label for="comments">Commentaires: </label>
+            <p><textarea name="commentaires" id="comments" rows="10" cols="50"></textarea></p>
+            <p<label for="news"> Newsletter:</label>
+            <input type="checkbox" name="newsletter" id="news">
+            </p>
+
+            <input type="submit" value="Envoyer">
+
+        </form>
+    </section>
+</main>
+<footer>
+    <p>(c) 2023 - BlindCode</p>
+</footer>
+</body>
+</html>

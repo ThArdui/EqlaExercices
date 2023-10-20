@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr-BE">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 10-8</title>
+</head>
+
+<body>
+<header>
+    <nav role="navigation" aria-label="Menu principal">
+        <ul>
+            <li><a href="#" class="active" aria-current="page">Lien 1</a></li>
+            <li><a href="#">Lien 2</a></li>
+            <li><a href="#">Lien 3</a></li>
+        </ul>
+    </nav>
+</header>
+<main id="maincontent">
+    <h1>Partie 8- simple formulaire </h1>
+    <section>
+        <form method="get" action="http://zamboyle.synology.me:2727/forms/demos/showvars.php">
+           <div>
+               <label for="nom">Nom: </label>
+               <input type="text" id="nom" name="nom" required>
+           </div>
+<div>
+    <label for="prenom">Prénom:</label>
+    <input type="text" id="prenom" name="prenom" required>
+</div>
+        <div>
+            <label for="email">E-mail : </label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+            <div>
+                <label for="age"> Âge : </label>
+                <input type="number" id="age" name="age">
+            </div>
+            <br>
+            <div>
+                <label for="comments">Commentaires: </label>
+            </div>
+            <textarea name="commentaires" id="comments" rows="10" cols="50"></textarea>
+            <div>
+                <label for="news"> Newsletter:</label>
+                <input type="checkbox" name="newsletter" id="news">
+            </div>
+
+
+
+
+
+
+            <div>
+                <p> Prérequis </p>
+            </div>
+
+            <div>
+                <input type="checkbox" name="prerecquis[]" value="php" id="php"> <label for="php">PHP </label>
+                <input type="checkbox" name="prerecquis[]" value="html" id="html"><label for="html">HTML </label>
+                <input type="checkbox" name="prerecquis[]" value="css" id="css" ><label for="css">CSS </label>
+
+            </div>
+<br>
+            <label for="femi"> Féminin : </label>
+            <input type="radio" id="femi" name="sexe" value="feminin"><br>
+
+            <label for="masc"> Masculin : </label>
+            <input type="radio" id="masc" name="sexe" value="masculin"><br>
+<p><label for="langue"> Langue : </label></p>
+            <select id="langue" name="langues" >
+
+                <option value="français" selected> Français</option>
+                <option value="anglais"> Anglais</option>
+                <option value="allemand">Allemand</option>
+                <option value="espagnol">Espagnol</option>
+<option value="italien">Italien </option>
+                <option value="roumain">Roumain</option>
+            </select>
+            <br>
+<div>
+    <br>
+    <input type="submit" value="Envoyer">
+</div>
+
+
+        </form>
+    </section>
+</main>
+<footer>
+    <p>(c) 2023 - BlindCode</p>
+</footer>
+</body>
+</html>

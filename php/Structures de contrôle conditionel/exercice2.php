@@ -2,13 +2,22 @@
 $age;
 echo " Quel âge avez-vous? ";
 $age=fgets(STDIN);
-if ($age>=18)
+if (is_numeric($age))
 {
-    echo "Vous êtes majeur";
+    if ($age>=18)
+    {
+        echo "Vous êtes majeur";
+    }
+    else
+    {
+        echo "Vous êtes mineur";
+    }
+
+
 }
 else
 {
-    echo "Vous êtes mineur";
+    echo $age."n'est pas un chiffre. Veuillez svp rentrer un chiffre";
 }
 echo "Fin de l'exo";
 ?>

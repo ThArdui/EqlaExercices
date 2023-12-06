@@ -7,29 +7,29 @@ echo "Entrez un troisième nombre?";
 $number3=fgets(STDIN);
 
 $biggestnumber = "Les nombres sont les mêmes";
-    if ($number1>$number2)
+if ($number1>$number2)
+{
+    if ($number1>$number3)
     {
-        if ($number1>$number3)
-        {
-            $biggestnumber=$number1;
-        }
+        $biggestnumber=$number1;
+    }
 
-    }
-    if ($number2>$number1)
+}
+if ($number2>$number1)
+{
+    if ($number2>$number3)
     {
-        if ($number2>$number3)
-        {
-            $biggestnumber=$number2;
-        }
+        $biggestnumber=$number2;
     }
-    if ($number3>$number1)
+}
+if ($number3>$number1)
+{
+    if ($number3>$number2)
     {
-        if ($number3>$number2)
-        {
-            $biggestnumber=$number3;
-        }
+        $biggestnumber=$number3;
     }
-    echo "Le nombre plus grand est".$biggestnumber;
+}
+echo "Le nombre plus grand est".$biggestnumber;
 
 
 

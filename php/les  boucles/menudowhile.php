@@ -13,7 +13,7 @@ do {
     }
     else
     {
-        echo "Attention".$userentry."n'est pas un chiffre de 1 à 3. Veuillez SVP rentrer un chiffre de 1 à 3!";
+        echo "Attention"." ".$userentry."n'est pas un chiffre de 1 à 3. Veuillez SVP rentrer un chiffre de 1 à 3!";
     }
 }
 while ($userentry!=3);

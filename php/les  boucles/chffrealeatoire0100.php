@@ -10,5 +10,5 @@ do
     $counter++;
 }
 while ($randomnumber!=$entrynumber);
-echo "Vous avez trouvé le bon chiffre en".$counter."fois";
+echo "Vous avez trouvé le bon chiffre en"." ".$counter." "."fois";
 ?>

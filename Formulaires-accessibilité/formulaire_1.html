@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Abonement newsletter- exercice 1 formulaire</title>
+<style>
+body
+{
+	background-color: brown;
+	color: white;
+}
+
+div
+{
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
+.footercontent
+{
+	text-align: center;
+}
+</style>
+
+</head>
+<body>
+<header>
+
+</header>
+
+<main>
+<h1> Abonnement à la newsletter </h1>
+<p aria-hidden="true"> Les champs marqués par un * sont obligatoires.</p>
+	<form method="post" action="">
+		<div>
+
+			<fieldset>
+				<legend> Vos cordonnées </legend>
+				<p> <label for="name"> Nom <span aria-hidden="true"> *</span> : </label> </p>
+				<p> <input type="text" id="name" name="name" aria-required="true"></p>
+
+				<p> <label for="lname"> Prénom<span aria-hidden="true"> *</span>: </label> </p>
+				<p> <input type="text" id="lname" name="lname" aria-required="true"></p>
+
+				<p><label for="mail"> Votre e-mail (exemple : john.lenon@mail.com) <span aria-hidden="true"> *</span> :</label> </p>
+				<p>  <input type="email" id="mail" name="mail"></p>
+				<p> <label for="pays"> Pays <span aria-hidden="true"> *</span> : </label> </p>
+				<p>
+					<select id="pays" name="pays">
+						<optgroup label="Europe">
+							<option value="belgique" selected aria-selected="true"> Belgique</option>
+							<option value="france">France</option>
+							<option value="allemagne"> Allemagne</option>
+						</optgroup>
+						<optgroup label="Amérique">
+							<option value="mexique"> Mexique</option>
+							<option value="canada">Canada</option>
+						</optgroup>
+						<optgroup label="Asie">
+							<option value="japon">Japon</option>
+							<option value="chine">Chine</option>
+						</optgroup>
+					</select>
+				</p>
+				<p> <label for="bdate"> Date de naissance (jour/mois/année) <span aria-hidden="true"> *</span>:</label> </p>
+				<p> <input id="bdate" type="date" aria-required="true"></p>
+				<p> <label for="identity"> Copie carte d'identité <span aria-hidden="true"> (formats acceptés pdf et word) *</span>:</label> </p>
+				<p> <input id="identity" type="file" aria-required="true" required accept=".pdf.word"></p>
+			</fieldset>
+		</div>
+<div>
+	<fieldset>
+		<legend>Thèmes souhaités </legend>
+		<p> <input type="checkbox" name="theme[]" value="sports" > Sports</p>
+		<p> <input type="checkbox" name="theme[]" value="cuisine" > Cuisine</p>
+		<p> <input type="checkbox" name="theme[]" value="voyages" > Voyages</p>
+		<p> <input type="checkbox" name="theme[]" value="relaxation" > Relaxation</p>
+	</fieldset>
+
+
+</div>
+	<div>
+		<fieldset>
+			<legend> Type d'abonnement souhaité </legend>
+			<p> <input type="radio" name="abo"  id="hebdo" value="hebdomadaire"><label for="hebdo">Newsletter hebdomadaire  </label></p>
+			<p> <input type="radio" name="abo"  id="mensu" value="mensuelle"><label for="mensu">Newsletter mensuelle  </label></p>
+			<p> <input type="radio" name="trim"  id="trim" value="trimestrielle"><label for="trim">Newsletter trimestrielle </label></p>
+		</fieldset>
+
+	</div>
+<div>
+
+	<fieldset>
+		<legend> Modalités de réception </legend>
+		<p><label for="duree"> Durée de l'abonnement en mois (entre 3 et 12)<span aria-hidden="true"> *</span>: </label> </p>
+		<p> <input type="number" min="3" max="12" id="duree" aria-required="true"></p>
+		<p> <label for="hour"> Heure de réception souhaitée:<span aria-hidden="true"> *</span></label> </p>
+		<p> <input type="time" id="hour" name="hour" aria-required="true"></p>
+		<p> <label for="degre"> Degré d'importance :<span aria-hidden="true"> *</span></label> </p>
+		<input type="range" id="degre" min="0" max="100" step="10" aria-required="true">
+	</fieldset>
+</div>
+
+<div><p> 		<input type="submit" value="Je m'abonne"></p></div>
+	</form>
+</main>
+
+<footer>
+	<p class="footercontent"> Thom's Zine 2024 - Tous droits réservés</p>
+
+</footer>
+</body>
+</html>

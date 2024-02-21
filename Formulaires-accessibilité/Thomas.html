@@ -2,21 +2,17 @@
 <html lang="fr">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width">
 	<title>Abonement newsletter- exercice 1 formulaire</title>
 <style>
 body
 {
-	background-color: brown;
+	background-color: rgb(139, 171, 177);
 	color: white;
 	width: 100%;
 	margin: 0;
+	
 }
-/*p {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-}*/
 
 div
 {
@@ -28,13 +24,12 @@ div
 
 footer
 {
-	background-color: blue;
-	height: 75px;
-	padding-top: 5px;
-}
-.footercontent
-{
+	background-color: rgb(3, 23, 41);
+	color: #eceff3;
 	text-align: center;
+	height: 50px;
+	padding-top: 5px;
+	
 }
 </style>
 
@@ -52,16 +47,17 @@ footer
 
 			<fieldset>
 				<legend> Vos cordonnées </legend>
-				<p> <label for="name"> Nom <span aria-hidden="true"> *</span> : </label><input type="text" id="name" name="name" required> </p>
+				<p> <label for="name"> Nom <span aria-hidden="true"> *</span> : </label> </p>
+				<p> <input type="text" id="name" name="name" aria-required="true"></p>
 
+				<p> <label for="lname"> Prénom<span aria-hidden="true"> *</span>: </label> </p>
+				<p> <input type="text" id="lname" name="lname" aria-required="true"></p>
 
-				<p> <label for="lname"> Prénom<span aria-hidden="true"> *</span>: </label> <input type="text" id="lname" name="lname" required></p>
-
-
-				<p><label for="mail"> Votre e-mail (exemple : john.lenon@mail.com) <span aria-hidden="true"> *</span> :</label> <input required type="email" id="mail" name="mail"></p>
-				 <p><label for="pays"> Pays <span aria-hidden="true"> *</span> : </label> </p>
+				<p><label for="mail"> Votre e-mail (exemple : john.lenon@mail.com) <span aria-hidden="true"> *</span> :</label> </p>
+				<p>  <input type="email" id="mail" name="mail"></p>
+				<p> <label for="pays"> Pays <span aria-hidden="true"> *</span> : </label> </p>
 				<p>
-					<select id="pays" name="pays" required>
+					<select id="pays" name="pays">
 						<optgroup label="Europe">
 							<option value="belgique" selected aria-selected="true"> Belgique</option>
 							<option value="france">France</option>
@@ -77,10 +73,10 @@ footer
 						</optgroup>
 					</select>
 				</p>
-				<p> <label for="bdate"> Date de naissance (jour/mois/année) <span aria-hidden="true"> *</span>:</label> <input id="bdate" type="date" required></p>
-
-				<p> <label for="identity"> Copie carte d'identité <span aria-hidden="true"> (formats acceptés pdf et word) *</span>:</label> <input id="identity" type="file"  required accept=".pdf.word"></p>
-
+				<p> <label for="bdate"> Date de naissance (jour/mois/année) <span aria-hidden="true"> *</span>:</label> </p>
+				<p> <input id="bdate" type="date" aria-required="true"></p>
+				<p> <label for="identity"> Copie carte d'identité <span aria-hidden="true"> (formats acceptés pdf et word) *</span>:</label> </p>
+				<p> <input id="identity" type="file" aria-required="true" required accept=".pdf.word"></p>
 			</fieldset>
 		</div>
 <div>
@@ -107,21 +103,28 @@ footer
 
 	<fieldset>
 		<legend> Modalités de réception </legend>
-		<p><label for="duree"> Durée de l'abonnement en mois (entre 3 et 12)<span aria-hidden="true"> *</span>: </label> 		<p> <input type="number" min="3" max="12" id="duree" required></p>
-
-		<p> <label for="hour"> Heure de réception souhaitée:<span aria-hidden="true"> *</span></label>  <input type="time" id="hour" name="hour" required></p>
-		<p> <label for="degre"> Degré d'importance :<span aria-hidden="true"> *</span></label> 		<input type="range" id="degre" min="0" max="100" step="10" required></p>
-
+		<p><label for="duree"> Durée de l'abonnement en mois (entre 3 et 12)<span aria-hidden="true"> *</span>: </label> </p>
+		<p> <input type="number" min="3" max="12" id="duree" aria-required="true"></p>
+		<p> <label for="hour"> Heure de réception souhaitée:<span aria-hidden="true"> *</span></label> </p>
+		<p> <input type="time" id="hour" name="hour" aria-required="true"></p>
+		<p> <label for="degre"> Degré d'importance :<span aria-hidden="true"> *</span></label> </p>
+		<input type="range" id="degre" min="0" max="100" step="10" aria-required="true">
 	</fieldset>
 </div>
 
-<div><p> 		<input type="submit" value="Je m'abonne"></p></div>
+<div>
+	<p><input type="submit" value="Je m'abonne"></p></div>
 	</form>
-</main>
 
+	
+</main>
 <footer>
 	<p class="footercontent"> Thom's Zine 2024 - Tous droits réservés</p>
 
 </footer>
+
+
+
 </body>
+
 </html>

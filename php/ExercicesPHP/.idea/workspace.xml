@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a28d8560-b4ef-4bdf-a6d0-1788d4528144" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Traitement formulaires html-php/RestaurantReservation/Style/form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Traitement formulaires html-php/RestaurantReservation/Style/formAccepted.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Traitement formulaires html-php/RestaurantReservation/Style/formRefused.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Traitement formulaires html-php/RestaurantReservation/Style/welcome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Traitement formulaires html-php/RestaurantReservation/Views/ValidateReservationForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Traitement formulaires html-php/RestaurantReservation/Views/calculator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Traitement formulaires html-php/RestaurantReservation/Views/calculatorResult.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Traitement formulaires html-php/RestaurantReservation/Views/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Traitement formulaires html-php/RestaurantReservation/Views/test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Traitement formulaires html-php/RestaurantReservation/Views/traitement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Formulaires-accessibilité/fourmulaire_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Formulaires-accessibilité/fourmulaire_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mysql/ex1.2_rev.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../mysql/ex1.2_rev.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tableaux/exstableauxavecjc.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Tableaux/exstableauxavecjc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tableaux/theotableaux.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Tableaux/theotableaux.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\php\php.exe" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2bl4caVqUpqMGBdjW27IIt9wnhg" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;PHP Script.notesellevesessaibis.php.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/thoma/Documents/EqlaExercices/php/ExercicesPHP&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-php-predefined-ba97393d7c68-6f8e3395a2b4-com.jetbrains.php.sharedIndexes-PS-233.14015.96" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a28d8560-b4ef-4bdf-a6d0-1788d4528144" name="Changes" comment="" />
+      <created>1706776412201</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706776412201</updated>
+      <workItem from="1706776413217" duration="157000" />
+      <workItem from="1706776608516" duration="21138000" />
+      <workItem from="1706973410655" duration="15000" />
+      <workItem from="1706990467890" duration="7739000" />
+      <workItem from="1707068690747" duration="81000" />
+      <workItem from="1707070856254" duration="5080000" />
+      <workItem from="1707411731127" duration="604000" />
+      <workItem from="1707412404423" duration="753000" />
+      <workItem from="1707432069206" duration="109000" />
+      <workItem from="1707485963936" duration="4162000" />
+      <workItem from="1707572426929" duration="9081000" />
+      <workItem from="1707915766670" duration="2713000" />
+      <workItem from="1708001622472" duration="25000" />
+      <workItem from="1708035592287" duration="11000" />
+      <workItem from="1709409160735" duration="1978000" />
+      <workItem from="1709548616346" duration="22000" />
+      <workItem from="1709569504389" duration="3576000" />
+      <workItem from="1709574150191" duration="271000" />
+      <workItem from="1709574560740" duration="1531000" />
+      <workItem from="1709634120822" duration="2889000" />
+      <workItem from="1709638875793" duration="4860000" />
+      <workItem from="1709658233656" duration="15000" />
+      <workItem from="1709658855306" duration="38000" />
+      <workItem from="1709659002509" duration="16000" />
+      <workItem from="1709659135898" duration="17000" />
+      <workItem from="1709659224428" duration="9000" />
+      <workItem from="1709714567431" duration="2712000" />
+      <workItem from="1709717350402" duration="1603000" />
+      <workItem from="1709814480006" duration="2312000" />
+      <workItem from="1709816819081" duration="96000" />
+      <workItem from="1709816938991" duration="4585000" />
+      <workItem from="1709821595236" duration="3983000" />
+      <workItem from="1710152051666" duration="11000" />
+      <workItem from="1710152585442" duration="37000" />
+      <workItem from="1710159442019" duration="5000" />
+      <workItem from="1710163194397" duration="32000" />
+      <workItem from="1710192626847" duration="41000" />
+      <workItem from="1710192906109" duration="6000" />
+      <workItem from="1710194892664" duration="12000" />
+      <workItem from="1710242201393" duration="8000" />
+      <workItem from="1710870901399" duration="49000" />
+      <workItem from="1710870962098" duration="45000" />
+      <workItem from="1710943297194" duration="2364000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/notesellevesessaibis.php</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

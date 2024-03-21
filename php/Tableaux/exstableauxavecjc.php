@@ -11,9 +11,9 @@ $tableauPays= [
 $eleves= [
     [ "Bob",[5,10,15,20]]
     ];
+echo $eleves[0][0].$eleves[0][1][0]."\n";
 
-
-ShowArray($tableauPays);
+ShowArray($tableauPays)."\n";
 ShowStudents ($eleves);
 function ShowArray (array $countrylist):void
 {

@@ -70,3 +70,23 @@ values
 ('Thriller'),
 ('Policier')
 ;
+INSERT INTO livre (titre, isbn, langue, annee_publication, nombre_pages, nombre_exemplaires, id_auteur, id_theme)
+VALUES
+('Que serais-je sans toi', 97459, 'fr', 2009, 361, 5000000, 1, 2),
+('Le Philosophe nu', 58545, 'fr', 2005, 896, 596691555, 2, 2),
+('Le Philosopheu', 58252, 'fr', 2005, 896, 596691555, 2, 2)
+;
+insert into lecteurs(nom,prenom, date_naissance)
+values
+('Ardui','Thomas', '1991-01-28'),
+('Dupont','Charles', '1975-05-27'),
+('Oliveira', 'Fabricio', '1992-07-07'),
+('Costa Lira', 'Maria Tereza','1953-07-30'),
+('Biebuyck', 'Nicolas', '1994-02-18')
+;
+insert into emprunts(date_debut, date_fin, rendu, id_lecteur)
+values
+('2024-03-31', '2024-04-14', false,1),
+('2024-03-05','2024-03-18', true,4),
+('2024-02-25', '2024-03-10', true,3)
+;

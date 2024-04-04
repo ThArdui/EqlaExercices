@@ -43,10 +43,10 @@ include '../Includes/navbar.php';
                     <label for="tel">Téléphone <span aria-hidden="true">*</span></label>
                     <input type="tel" name="phone" id="tel" autocomplete="tel" required>
                 </p>
-                <p>
-                    <label for="birthd">Date de naissance <span aria-hidden="true">*</span></label>
-                    <input type="date" name="dnaissance" id="birthd" autocomplete="bday" >
-                </p>
+                    <p>
+                        <label for="birthd">Date de naissance <span aria-hidden="true">*</span></label>
+                        <input type="date" name="dnaissance" id="birthd" autocomplete="bday" required >
+                    </p>
             </fieldset>
         </div>
         <div>

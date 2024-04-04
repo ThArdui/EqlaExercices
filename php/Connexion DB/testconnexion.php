@@ -35,7 +35,7 @@ if ($userData)
 }
 else
 {
-    echo "Créer un compte! ";
+    echo "Compte créer! merci! ";
 
     $requete=$bdd->prepare("insert into login_password(username, password) values (:username, :password)");
     $requete->bindParam(":username",$name);

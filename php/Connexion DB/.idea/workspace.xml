@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3c8fe9d8-d3c0-4608-b0e9-d0c282dcf515" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Traitement formulaires html-php/RestaurantReservation/Views/pageadmin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Traitement formulaires html-php/RestaurantReservation/Views/traitementConnexUser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Traitement formulaires html-php/RestaurantReservation/reservations.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Javascript/tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Javascript/tests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mysql/biblio.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../mysql/biblio.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testconnexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/testconnexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Traitement formulaires html-php/RestaurantReservation/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Traitement formulaires html-php/RestaurantReservation/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Traitement formulaires html-php/RestaurantReservation/Views/ValidateReservationForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Traitement formulaires html-php/RestaurantReservation/Views/ValidateReservationForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Traitement formulaires html-php/RestaurantReservation/Views/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Traitement formulaires html-php/RestaurantReservation/Views/form.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\php\php.exe" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2dzZ6Z1WSWHm3K6nZ7b3woIBIvr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/php/php.ini-development&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-php-predefined-ba97393d7c68-6f8e3395a2b4-com.jetbrains.php.sharedIndexes-PS-233.14015.96" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c8fe9d8-d3c0-4608-b0e9-d0c282dcf515" name="Changes" comment="" />
+      <created>1711012692542</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711012692542</updated>
+      <workItem from="1711012693635" duration="3029000" />
+      <workItem from="1711017776217" duration="11016000" />
+      <workItem from="1711383738294" duration="303000" />
+      <workItem from="1711444178871" duration="1441000" />
+      <workItem from="1711446088493" duration="1856000" />
+      <workItem from="1711452119148" duration="10000" />
+      <workItem from="1711452924460" duration="10000" />
+      <workItem from="1711453109047" duration="6000" />
+      <workItem from="1711454809489" duration="206000" />
+      <workItem from="1711455513515" duration="255000" />
+      <workItem from="1711630285050" duration="198000" />
+      <workItem from="1711643858041" duration="1010000" />
+      <workItem from="1711646876996" duration="188000" />
+      <workItem from="1711982382265" duration="57000" />
+      <workItem from="1711982488059" duration="113000" />
+      <workItem from="1711982624332" duration="33000" />
+      <workItem from="1712045174623" duration="763000" />
+      <workItem from="1712071841984" duration="373000" />
+      <workItem from="1712079152594" duration="31000" />
+      <workItem from="1712079224618" duration="42000" />
+      <workItem from="1712079424005" duration="36000" />
+      <workItem from="1712079531748" duration="15000" />
+      <workItem from="1712079586966" duration="62000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/testconnexion.php</url>
+          <line>22</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -99,7 +99,7 @@ public function GetHeight ():float
     public function ShowBatteryPercentage()
 {
     echo "<br>Le téléphone a ".$this->GetBattery()." % de batterie";
-}
+    }
 
     public function CallNumber( string $number)
     {
@@ -119,7 +119,7 @@ public function GetHeight ():float
     }
 
 
-private function Start()
+public function Start()
 {
     if ($this->battery>0&& $this->isOn==false)
     {
@@ -138,7 +138,7 @@ private function Start()
     }
 }
 
-private function ShutDown()
+public function ShutDown()
 {
     if ($this->isOn == true)
     {

@@ -196,9 +196,23 @@ return $this->cartrigdeBlack;
     {
         return $this->isOn;
     }
-}
 
-function Start()
+    public function Print ()
+    {
+ if ($this->isOn)
+ {
+if ($this->cartrigdeCyan&&$this->cartrigdeBlack&&$this->cartrigeMagenta&&$this->cartridgeYellow)
 {
+    echo"Assez d'enncre!";
 
 }
+elseif ($this->paperNumber<=$this->paperCapacity)
+{
+    echo "ASSEZ DE papier";
+}
+ }
+
+
+    }
+}
+

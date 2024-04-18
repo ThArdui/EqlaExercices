@@ -5,9 +5,10 @@ Class MobilePhone
     private float $height;
     private float $widht;
 private int $autonomy;
-private bool $isOn;
+protected bool $isOn;
 private int $chargingTime;
-    private $battery;
+    protected $battery;
+    use TArea;
 public function __Construct(float $_height, float $_width, int $_autonomy, int $_battery, int $_chargingTime)
 {
     $this->height=$_height;
@@ -119,7 +120,7 @@ public function GetHeight ():float
     }
 
 
-public function Start()
+protected function Start()
 {
     if ($this->battery>0&& $this->isOn==false)
     {

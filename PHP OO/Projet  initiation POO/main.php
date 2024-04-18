@@ -3,6 +3,7 @@
     include "Printer.php";
     $thommyPrinter=new Printer(50,50,11,10,50,200,"Brother",true);
     echo $thommyPrinter->GetPrinterBrand();
+    $thommyPrinter->Scan(3);
 
 /*include "MobilePhone.php";
 /*$jonnhyPhone=new MobilePhone();
